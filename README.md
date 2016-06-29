@@ -1,3 +1,10 @@
+This project contains my configuration for a Sunhokey Prusa i3 2005 with the following options:
+
+* Inductive probe for auto bed leveling, mounted to the left of the hotend
+* Genuine E3D v6 hotend
+* Layer cooler
+* EEPROM saving enabled
+
 # Marlin 3D Printer Firmware
 <img align="top" width=175 src="Documentation/Logo/Marlin%20Logo%20GitHub.png" />
  Additional documentation can be found in [The Marlin Wiki](https://github.com/MarlinFirmware/Marlin/wiki).
