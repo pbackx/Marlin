@@ -34,8 +34,7 @@
 /* All the implementation is done in *.cpp files to get better compatibility with avr-gcc without the Arduino IDE */
 /* Use this file to help the Arduino IDE find which Arduino libraries are needed and to keep documentation on GCode */
 
-#include "Configuration.h"
-#include "pins.h"
+#include "MarlinConfig.h"
 
 #if ENABLED(ULTRA_LCD)
   #if ENABLED(LCD_I2C_TYPE_PCF8575)
@@ -66,6 +65,11 @@
 #if ENABLED(HAVE_TMCDRIVER)
   #include <SPI.h>
   #include <TMC26XStepper.h>
+#endif
+
+#if ENABLED(HAVE_TMC2130DRIVER)
+  #include <SPI.h>
+  #include <Trinamic_TMC2130.h>
 #endif
 
 #if ENABLED(HAVE_L6470DRIVER)
