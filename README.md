@@ -1,9 +1,13 @@
-This project contains my configuration for a Sunhokey Prusa i3 2005 with the following options:
+This project contains my configuration for a Sunhokey Prusa i3 2005.
+
+If you want to use this firmware, keep in mind I've made the following changes to my printer or the firmware:
 
 * Inductive probe for auto bed leveling, mounted to the left of the hotend
 * Genuine E3D v6 hotend
 * Layer cooler
 * EEPROM saving enabled
+* PID turned on for heated bed (MK2b) (PIDTEMPBED)
+* The extruder stepper is inverted (INVERT_E0_DIR)
 
 # Marlin 3D Printer Firmware
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
